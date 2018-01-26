@@ -12,3 +12,10 @@
 
 4 利用 threeQuery框架进行threejs快速构建
 
+## 感谢：
+
+1、感谢群友名俱扬的ThreeQuery框架
+https://github.com/HypnosNova/ThreeQuery
+
+2、感谢stackGL的 glslify模块化工具
+https://github.com/glslify/glslify-loader
