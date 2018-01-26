@@ -9,7 +9,7 @@ export class ThreeView {
         var geometry:THREE.PlaneBufferGeometry = new THREE.PlaneBufferGeometry(2, 2);
 
         var vertex = require("../glsl/vertex.glsl");
-        var frag = require('../glsl/frag.glsl');
+        var frag = require('../glsl/example.frag');
         var uniforms = {
             iTime: {
                 type: "f",
@@ -36,7 +36,7 @@ export class ThreeView {
 
         $$.worldActions = function () {
             uniforms.iTime.value += 0.05;
-            console.log(uniforms.iTime.value);
+            // console.log(uniforms.iTime.value);
         };
 
         onWindowResize(null);
