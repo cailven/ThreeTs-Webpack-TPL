@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "charset":"UTF-8",
+    "rootDir":"web/",
+    "target": "es5",
+    "sourceMap": true,
+
+    "outDir":"dist/",
+    "removeComments":true,
+    "listFiles":true,
+    "allowJs":true
+
+  },
+
+  "files": [
+
+  ],
+
+  "exclude": [
+    "node_modules"
+  ]
+
+}

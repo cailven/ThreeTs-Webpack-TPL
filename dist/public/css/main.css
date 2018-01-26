@@ -1,0 +1,35 @@
+#cjsCanvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#stopBtn {
+    position: absolute;
+    right: 0px;
+    top: 500px;
+    display: none;
+}
+
+#musicBtn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: none;
+}
+
+#musicBtn img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#startBtn {
+    position: absolute;
+    left: 50%;
+    margin-left: -144px;
+    top: 710px;
+    display: none;
+}
